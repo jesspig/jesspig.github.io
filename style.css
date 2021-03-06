@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  background-color: #223;
+}
+
+
+#title {
+  color: #cdd;
+  font-size: 80px;
+  font-weight: bolder;
+  font-family: Helvetica;
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
