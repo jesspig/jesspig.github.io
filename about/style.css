@@ -18,7 +18,7 @@ header {
 }
 
 #title {
-  font-size: 64px;
+  font-size: 56px;
   font-weight: bolder;
   padding: 50px 0;
   text-align: center;
@@ -26,8 +26,7 @@ header {
 
 nav {
   margin: auto;
-  max-width: 60%;
-  min-width: 400px;
+  width: 60%;
   min-height: 80px;
   border-top: 2px solid #cdd;
   border-bottom: 2px solid #cdd;
@@ -35,12 +34,12 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-
 }
 
 nav a {
   font-size: 32px;
   padding: 5px 10px;
+  margin: 0 20px;
 }
 
 nav a:hover {
@@ -58,7 +57,6 @@ main h2 {
 .block {
   background-color: #fff5;
   width: 75%;
-  min-width: 400px;
   min-height: 400px;
   max-height: 100%;
   border-radius: 20px;
